@@ -4,6 +4,6 @@
 - [Merge two sorted lists](https://repl.it/@xnull/LinkedListMergeTwo)
 
 ### Graph
- - (dfs)[] 
+ - (bfs)[https://repl.it/@xnull/GraphBfs] 
  - (bfs)[]
  - topological sort
