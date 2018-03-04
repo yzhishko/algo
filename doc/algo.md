@@ -3,6 +3,7 @@
 - [Middle element](https://repl.it/@xnull/LinkedListMiddle)
 - [Merge two sorted lists](https://repl.it/@xnull/LinkedListMergeTwo)
 
-### other
- - one 
- - two
+### Graph
+ - (dfs)[] 
+ - (bfs)[]
+ - topological sort
