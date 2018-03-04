@@ -1,7 +1,7 @@
 # algo
 
 ### LinkedList
-- one
+- [Github url](https://github.com)
 - two
 
 ### other
