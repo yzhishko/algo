@@ -1,4 +1,5 @@
 ### LinkedList
+
 - [Reverse linked list](https://repl.it/@xnull/ReverseLinkedList)
 - [Middle element](https://repl.it/@xnull/LinkedListMiddle)
 - [Merge two sorted lists](https://repl.it/@xnull/LinkedListMergeTwo)
@@ -8,3 +9,12 @@
  - [bfs](https://repl.it/@xnull/GraphBfs)
  - [dfs](https://repl.it/@xnull/GraphDfs)
  - [topological sort]()
+
+### Practice
+ - [linkedlist inteview](https://leetcode.com/problemset/all/?topicSlugs=linked-list&listId=wpwgkgt)
+ - [linkedlist all](https://leetcode.com/tag/linked-list/)
+ ----------
+ - [Arrays](https://leetcode.com/tag/array/)
+ - [Arrays interview](https://leetcode.com/problemset/all/?listId=wpwgkgt&search=Array)
+ ----------
+ - [Dynamic programming](https://leetcode.com/tag/dynamic-programming/)
