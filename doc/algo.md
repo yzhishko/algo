@@ -9,6 +9,9 @@
  - [bfs](https://repl.it/@xnull/GraphBfs)
  - [dfs](https://repl.it/@xnull/GraphDfs)
  - [topological sort]()
+ 
+### List
+ - [Max subarray](https://repl.it/@xnull/MaxSubArray)
 
 ### Practice
  - [linkedlist inteview](https://leetcode.com/problemset/all/?topicSlugs=linked-list&listId=wpwgkgt)
