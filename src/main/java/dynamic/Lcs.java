@@ -1,3 +1,6 @@
+import java.lang.*;
+import java.util.*;
+
 class Main {
   public static void main(String[] args) {
     int[][] x = new int[2][3];
@@ -12,6 +15,10 @@ class Main {
     
     int[] arr1 = new int[]{1,2,3,2,7,9};
     int[] arr2 = new int[]{9,2,3,2,7,88,10, 9};
+    
+    System.out.println(Arrays.toString(arr1));
+    System.out.println(Arrays.toString(arr2));
+    
     LongestCommonSubsesuence lcs = new LongestCommonSubsesuence(arr1, arr2);
     lcs.print();
     System.out.println("\n" + lcs.lcs());
@@ -34,11 +41,12 @@ class LongestCommonSubsesuence {
     
     for(int i=0; i < arr1.length; i++ ){
       for(int j =0; j<arr2.length; j++){
+        
         if(arr1[i] == arr2[j]){
           if(i == 0 || j == 0){
             result[i][j] = 1;
           } else {
-            result[i][i] = result[i-1][i-1] + 1;
+            result[i][j] = result[i-1][j-1] + 1;
           }
         }
       }
@@ -47,10 +55,12 @@ class LongestCommonSubsesuence {
     return result;
   }
   
-  int lcs(){
+  String lcs(){
     int[][] result = new int[arr1.length][arr2.length];
     
     int max = 0;
+    
+    List<Integer> out = new ArrayList<>();
     
     for(int i=0; i < arr1.length; i++ ){
       for(int j =0; j<arr2.length; j++){
@@ -58,14 +68,21 @@ class LongestCommonSubsesuence {
           if(i == 0 || j == 0){
             result[i][j] = 1;
           } else {
-            result[i][i] = result[i-1][i-1] + 1;
-            max = Math.max(max, result[i][i]);
+            result[i][j] = result[i-1][j-1] + 1;
+            max = Math.max(max, result[i][j]);
+          }
+          
+          if(result[i][j] > out.size()){
+            out = new ArrayList<>();
+            for(int xx =0; xx< result[i][j]; xx++){
+              out.add(arr1[i+1 - result[i][j] + xx]);
+            }
           }
         }
       }
     }
     
-    return max;
+    return out.toString();
   }
   
   public void print() {
