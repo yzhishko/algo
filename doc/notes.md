@@ -6,3 +6,4 @@
  - Minimum spanning tree
  - Implement AsyncLru
  - Systrem design: parking lot
+ - Solve sudoku on whiteboard
