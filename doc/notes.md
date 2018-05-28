@@ -4,4 +4,5 @@
  - spark+hdfs distribution and shuffeling
  - Dijkstra algorithm implementation
  - Minimum spanning tree
- - ...
+ - Implement AsyncLru
+ - Systrem design: parking lot
